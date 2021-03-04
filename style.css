@@ -1,0 +1,58 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: /* #FFE4B5 */ #F0E68C;
+}
+
+.section-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-list, .skills-list {
+    margin: 0;
+    padding: 0;
+}
+
+.photo img {
+    width: 500px;
+    height: 700px;
+}
+
+.main-title {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.section-title {
+    font-size: 30px;
+}
+
+.info-text {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.info-text a {
+    color: inherit;
+    color: #FF8C00;
+}
+
+.info-text a:visited {
+    color: #FF4500;
+}
+
+.info-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.education-list__item, .skills-list__item {
+    font-size: 20px;
+}
