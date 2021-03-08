@@ -4,55 +4,86 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: /* #FFE4B5 */ #F0E68C;
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;  
 }
 
-.section-wrap {
+.header {
+    background-color: #F0E68C;
+}
+
+.header-wrap {
     display: flex;
-    justify-content: space-between;
 }
 
-.education-list, .skills-list {
+.contacts-list {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.photo img {
-    width: 500px;
-    height: 700px;
-}
-
-.main-title {
-    font-family: 'Helvetica', sans-serif;
-    font-size: 40px;
-    text-decoration: underline;
-}
-
-.section-title {
-    font-size: 30px;
-}
-
-.info-text {
-    line-height: 22px;
-    font-size: 18px;
-}
-
-.info-text a {
-    color: inherit;
+.contacts-list-item a {
     color: #FF8C00;
 }
 
-.info-text a:visited {
+.contacts-list-item a:hover {
+    text-decoration: underline;
+}
+
+.contacts-list-item a:visited {
     color: #FF4500;
 }
 
-.info-wrap {
+.name {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    justify-content: space-around;
 }
 
-.education-list__item, .skills-list__item {
+.full-name {
+    font-size: 40px;
+    color: #FF8C00;
+}
+
+.contacts {
     font-size: 20px;
 }
+
+
+.main {
+    font-size: 18px;
+}
+
+.content-wrap {
+    display: flex;
+}
+
+.subtitle {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.education-hobbies, .summary-skills {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.skills-list__item, .hobbies-list__item, .education-list__item {
+    margin-bottom: 15px;
+}
+
+.summary-text {
+    line-height: 25px;
+}
+
+
+
+
+
